@@ -1,0 +1,24 @@
+2026-01-01 15:33:20,782 | INFO     | App | Application starting
+2026-01-01 15:33:20,783 | INFO     | DatabaseService | Connecting to database
+2026-01-01 15:33:20,883 | DEBUG    | DatabaseService | Database connection established
+2026-01-01 15:33:20,883 | DEBUG    | App | Handling request | user=user-0
+2026-01-01 15:33:20,883 | INFO     | PaymentService | Processing payment | user=user-0 amount=-5.00
+2026-01-01 15:33:20,883 | WARNING  | PaymentService | Rejected payment with non-positive amount | user=user-0
+2026-01-01 15:33:21,084 | DEBUG    | App | Handling request | user=user-1
+2026-01-01 15:33:21,084 | INFO     | PaymentService | Processing payment | user=user-1 amount=10.00
+2026-01-01 15:33:21,084 | INFO     | PaymentService | Payment successful | user=user-1 amount=10.00
+2026-01-01 15:33:21,085 | DEBUG    | DatabaseService | Executing query: SELECT * FROM transactions
+2026-01-01 15:33:21,135 | DEBUG    | App | Query result: {'rows': 10}
+2026-01-01 15:33:21,335 | DEBUG    | App | Handling request | user=user-2
+2026-01-01 15:33:21,335 | INFO     | PaymentService | Processing payment | user=user-2 amount=-5.00
+2026-01-01 15:33:21,335 | WARNING  | PaymentService | Rejected payment with non-positive amount | user=user-2
+2026-01-01 15:33:21,536 | DEBUG    | App | Handling request | user=user-3
+2026-01-01 15:33:21,536 | INFO     | PaymentService | Processing payment | user=user-3 amount=-5.00
+2026-01-01 15:33:21,536 | WARNING  | PaymentService | Rejected payment with non-positive amount | user=user-3
+2026-01-01 15:33:21,736 | DEBUG    | App | Handling request | user=user-4
+2026-01-01 15:33:21,737 | INFO     | PaymentService | Processing payment | user=user-4 amount=-5.00
+2026-01-01 15:33:21,737 | WARNING  | PaymentService | Rejected payment with non-positive amount | user=user-4
+2026-01-01 15:33:21,937 | INFO     | App | Application shutting down
+2026-01-01 15:33:21,937 | INFO     | App | Application shutting down
+2026-01-01 15:33:21,937 | INFO     | App | Application shutting down
+2026-01-01 15:33:21,937 | INFO     | App | Application shutting down
